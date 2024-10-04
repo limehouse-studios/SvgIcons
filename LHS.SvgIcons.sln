@@ -1,8 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{380D1DDE-5A3A-490E-B2D5-F3E8C51A1FCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "actions", "actions", "{987A2F62-BF20-4A46-B6C6-787BC883824A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHS.SvgIcons.Core", "src\LHS.SvgIcons.Core\LHS.SvgIcons.Core.csproj", "{3524A087-3872-422B-B51B-81A6E20CA902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHS.SvgIcons.Mvc", "src\LHS.SvgIcons.Mvc\LHS.SvgIcons.Mvc.csproj", "{47ED706C-2E79-4401-9973-330D60361C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LHS.SvgIcons.Blazor", "src\LHS.SvgIcons.Blazor\LHS.SvgIcons.Blazor.csproj", "{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3524A087-3872-422B-B51B-81A6E20CA902} = {380D1DDE-5A3A-490E-B2D5-F3E8C51A1FCC}
+		{47ED706C-2E79-4401-9973-330D60361C3D} = {380D1DDE-5A3A-490E-B2D5-F3E8C51A1FCC}
+		{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F} = {380D1DDE-5A3A-490E-B2D5-F3E8C51A1FCC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3524A087-3872-422B-B51B-81A6E20CA902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3524A087-3872-422B-B51B-81A6E20CA902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3524A087-3872-422B-B51B-81A6E20CA902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3524A087-3872-422B-B51B-81A6E20CA902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47ED706C-2E79-4401-9973-330D60361C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47ED706C-2E79-4401-9973-330D60361C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47ED706C-2E79-4401-9973-330D60361C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47ED706C-2E79-4401-9973-330D60361C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB80D02-CC27-4E7E-BB46-7EF95D674F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

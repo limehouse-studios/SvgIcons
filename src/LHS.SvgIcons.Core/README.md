@@ -1,0 +1,1 @@
+## LHS.SvgIcons.Core
