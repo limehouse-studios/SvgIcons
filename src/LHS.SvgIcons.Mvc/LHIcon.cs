@@ -3,7 +3,7 @@ using LHS.SvgIcons.Core;
 
 namespace LHS.SvgIcons.Mvc;
 
-public static class LHSSvgIcon
+public static class LHIcon
 {
     public static MvcHtmlString Render(ISvgIcon icon,  string? classes = null, string? width = null, string? height = null)
     {

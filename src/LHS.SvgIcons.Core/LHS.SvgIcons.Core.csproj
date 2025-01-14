@@ -18,7 +18,7 @@
         <PackageTags>blazor;icon;icons;pack;svg;mvc</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
-        <Version>0.1.0</Version>
+        <Version>1.0.0</Version>
         <ProductVersion>$(Version)</ProductVersion>
         <AssemblyVersion>$(Version)</AssemblyVersion>
         <FileVersion>$(Version)</FileVersion>

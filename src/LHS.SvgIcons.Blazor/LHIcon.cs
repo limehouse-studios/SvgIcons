@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components.Rendering;
 
 namespace LHS.SvgIcons.Blazor;
 
-public class LHSSvgIcon: ComponentBase
+public class LHIcon: ComponentBase
 {
     [Parameter, EditorRequired]
     public ISvgIcon Icon { get; set; } = default!;

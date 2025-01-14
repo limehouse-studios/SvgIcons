@@ -4,12 +4,35 @@
         <TargetFramework>net48</TargetFramework>
         <LangVersion>latestmajor</LangVersion>
         <Nullable>enable</Nullable>
-        <Version>1.0.5</Version>
+
+        <Title>Limehouse Studios SVG Icons for Aspnet Mvc</Title>
+        <Authors>Ellis Smith</Authors>
+        <Company>Limehouse Studios Limited</Company>
+        <Description>Helpers and components for cross targetted SVG Icons when migrating from framework to core</Description>
+        <Copyright>Limehouse Studios Limited</Copyright>
+        <PackageProjectUrl>https://github.com/limehouse-studios/SvgIcons</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/limehouse-studios/SvgIcons</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>limehouse_logo.png</PackageIcon>
+        <PackageTags>icon;icons;pack;svg;mvc</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+        <Version>1.0.0</Version>
+        <ProductVersion>$(Version)</ProductVersion>
+        <AssemblyVersion>$(Version)</AssemblyVersion>
+        <FileVersion>$(Version)</FileVersion>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="lhs.svgicons.core" Version="1.0.5" />
+      <PackageReference Include="LHS.SvgIcons.Core" Version="1.0.0" />
       <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="..\Assets\limehouse_logo.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>

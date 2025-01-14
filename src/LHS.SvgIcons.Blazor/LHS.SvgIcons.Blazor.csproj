@@ -5,7 +5,23 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <LangVersion>latestmajor</LangVersion>
-        <Version>1.0.5</Version>
+
+        <Title>Limehouse Studios SVG Icons for Blazor</Title>
+        <Authors>Ellis Smith</Authors>
+        <Company>Limehouse Studios Limited</Company>
+        <Description>Helpers and components for cross targetted SVG Icons when migrating from framework to core</Description>
+        <Copyright>Limehouse Studios Limited</Copyright>
+        <PackageProjectUrl>https://github.com/limehouse-studios/SvgIcons</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/limehouse-studios/SvgIcons</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageIcon>limehouse_logo.png</PackageIcon>
+        <PackageTags>blazor;icon;icons;pack;svg;mvc</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+        <Version>1.0.0</Version>
+        <ProductVersion>$(Version)</ProductVersion>
+        <AssemblyVersion>$(Version)</AssemblyVersion>
+        <FileVersion>$(Version)</FileVersion>
     </PropertyGroup>
 
 
@@ -14,11 +30,15 @@
     </ItemGroup>
 
     <ItemGroup>
+        <PackageReference Include="LHS.SvgIcons.Core" Version="1.0.0" />
         <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.8"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LHS.SvgIcons.Core\LHS.SvgIcons.Core.csproj" />
+        <None Include="..\Assets\limehouse_logo.png">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>
